@@ -15,7 +15,7 @@ app.use(express.json());
 // Define route handlers
 app.get('/', (req, res) => {
   // Handle GET requests
-  res.send('Hello, World!');
+  res.send('Mi primera API');
 });
 
 app.post('/', (req, res) => {
