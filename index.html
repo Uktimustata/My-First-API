@@ -1,10 +1,94 @@
- <!DOCTYPE html>
- <html>
- <head>
- <title>Mi primera API</title>
- </head>
- <body>
- <h1>Mi primer titulo de API!</h1>
- <p>Mi primer parrafo para el root de mi API</p>
- </body>
- </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First API</title>
+    <style>
+        table, th, td {
+            border: 1px solid black
+        }
+    </style>
+</head >
+    <body>
+        <table style="width: 500px;">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>        
+                <tr>
+                    <td>Dulce de leche</td>
+                    <td>0$</td>
+                </tr>
+                <tr>
+                    <td>Dulce de membrillo</td>
+                    <td>20$</td>
+                </tr>
+                <tr>
+                    <td>Dulce de batata</td>
+                    <td>40$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Total: 60$</td>
+            </tfoot>
+</table>
+    <!--ul lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--ol lista ordenada ; value cambia el valor de las listas-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elemento 1</li>
+                <li style="list-style-type: lower-greek;">Sub elemento 2</li>
+                <li style="list-style-type: lower-latin;">Sub elemento 3</li>
+                <li style="list-style-type: lower-roman;">Sub elemento 4</li>
+            </ol>
+        </li>
+    </ol>
+
+    <form action="/Formulario" method="post">
+        <label for="nombre">Nombre:</label>
+        <input value="nombre" type="text" id="nombre" name="Nombre" placeholder="Nombre"/>
+        <br>
+        <label for="Apellido">Apellido:</label>
+        <input value="apellido" type="text" id="Apellido" name="Apellido" placeholder="Apellido"/>
+        <br>
+        <label for="Comentario">Comentario</label>
+        <br>
+        <textarea rows="5" cols="50" id="Comentario" placeholder="Ingrese comentario" name="Comentario">default</textarea>
+        <br>
+        <button type="button">button</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+    </form>
+    My First API
+    <h1>Mi Primer Heading</h1>
+    <h2>Mi Segundo Heading</h2>
+    <h3>Mi Tercer Heading</h3>
+    <h4>Mi Cuarto Heading</h4>
+    <h5>Mi Quinto Heading</h5>
+    <h6>Mi Primer Heading</h6>
+    <p>Mi Primer Parrafo</p>
+    <p>Mi Segundo Parrafo</p>
+    <hr>
+    <h2>Mi Segundo Heading</h2>
+    <p>Mi Primer Parrafo, que no es realmente el primero
+        <span style="color: blue">porque el primero</span> <br><br>esta dentro de los anteriores headers
+    </p>
+    <!--Puto el que lea-->
+    <a target="_blank" href="https://www.google.com">Ir a google</a><br>
+    <img src="Images/Antony Stark.jpeg" width="600px" height="400px"/>
+</body>
+</html> 
